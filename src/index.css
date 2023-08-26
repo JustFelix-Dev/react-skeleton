@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  /* background: #333; */
+}
+
+header{
+  background-color: saddlebrown;
+  color: white;
+  padding: 1rem;
+}
+
+h2{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.content{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  gap:100px;
+}
