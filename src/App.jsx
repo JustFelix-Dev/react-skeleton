@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import Articles from './components/Articles'
 import User from './components/User'
+import MainPage from './assets/Pages/MainPage'
 
 function App() {
   return (
-    <div className="App">
+    <>
+    {/* <div className="App">
       <header>
         <h1>Welcome to my DEVBlog!</h1>
       </header>
@@ -12,7 +14,10 @@ function App() {
          <Articles/>
          <User/>
       </div>
-    </div>
+    </div> */}
+    <hr />
+    <MainPage/>
+    </>
   )
 }
 

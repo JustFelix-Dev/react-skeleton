@@ -11,6 +11,7 @@ const User = () => {
         setProfile(data)
     },5000)
    })
+   
   return (
     <div className='user'>
        <h2>User Details</h2>
